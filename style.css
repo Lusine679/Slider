@@ -1,0 +1,33 @@
+
+.slider-main{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.slider-main .slider-item{
+    display: inline-block;
+    display: none;
+}
+
+.slider-main .slider-item img{
+    width: 100%;
+    max-width: 500px;
+    height: 250px;
+}
+
+.play, .pause{
+    margin-top: 20px;
+    padding: 7px 20px;
+    background: #4e4d4d;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.next{
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 20px;
+}
